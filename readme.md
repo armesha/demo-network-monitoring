@@ -2,6 +2,10 @@
 
 A Python-based tool created for a **Junior Developer Trainee** application at **T-Mobile**. It reads device data from an XML file, pings the devices to check connectivity, and outputs the status (online/offline) in XML format or via a web interface.
 
+## Skills Demonstrated
+- Python, XML, Unix/Linux commands
+- Problem-solving and automation
+
 ## Features
 - **XML Parsing**: Reads device info from XML.
 - **Ping Checks**: Verifies if devices are online or offline.
@@ -49,7 +53,3 @@ python3 network_monitor.py test
   </device>
 </network>
 ```
-
-## Skills Demonstrated
-- Python, XML, Unix/Linux commands
-- Problem-solving and automation
