@@ -1,16 +1,12 @@
 # Network Monitoring Tool
 
-A Python-based tool that reads device data from an XML file, pings the devices to check connectivity, and outputs the status (online/offline) in XML format or via a web interface.
+A Python-based tool created for a **Junior Developer Trainee** application at **T-Mobile**. It reads device data from an XML file, pings the devices to check connectivity, and outputs the status (online/offline) in XML format or via a web interface.
 
 ## Features
 - **XML Parsing**: Reads device info from XML.
 - **Ping Checks**: Verifies if devices are online or offline.
 - **CLI & Web Interface**: Offers both command-line and web-based access (via Flask).
 - **Multi-threaded**: Efficiently pings multiple devices in parallel.
-
-## Skills Demonstrated
-- Python, XML, Unix/Linux commands
-- Problem-solving and automation
 
 ## How to Run
 
@@ -53,3 +49,7 @@ python3 network_monitor.py test
   </device>
 </network>
 ```
+
+## Skills Demonstrated
+- Python, XML, Unix/Linux commands
+- Problem-solving and automation
