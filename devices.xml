@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<network><device><name>Dewas_A</name><ip>192.168.1.10</ip></device><device><name>Dewas_B</name><ip>192.168.1.20</ip></device><device><name>Dewas_C</name><ip>192.168.1.30</ip></device><device><name>Dewas_D</name><ip>8.8.8.8</ip></device><device><name>test</name><ip>8.8.4.4</ip></device></network>

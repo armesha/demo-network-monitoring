@@ -1,0 +1,73 @@
+2024-10-07 17:16:56,715 - INFO - Loaded 5 devices from devices.xml
+2024-10-07 17:16:56,717 - INFO - Loaded 5 devices from devices.xml
+2024-10-07 17:17:03,248 - INFO - Loaded 5 devices from devices.xml
+2024-10-07 17:17:03,485 - WARNING - Ping failed: Dewas_D - 256.256.256.256
+2024-10-07 17:17:03,485 - INFO - Ping successful: Dewas_A - 8.8.8.8 in 0.0ms
+2024-10-07 17:17:03,487 - INFO - Ping successful: Dewas_C - 127.0.0.1 in 1.51ms
+2024-10-07 17:17:03,488 - WARNING - Ping failed: Dewas_B - 192.0.2.1
+2024-10-07 17:17:03,490 - WARNING - Ping failed: Dewas_Invalid - 256.256.256.256
+2024-10-07 17:17:03,491 - INFO - Ping successful: Dewas_Local - 127.0.0.1 in 0.0ms
+2024-10-07 17:17:03,493 - WARNING - Ping failed: Dewas_B - 192.0.2.1
+2024-10-07 17:17:03,493 - INFO - Ping successful: Dewas_D - 8.8.8.8 in 0.0ms
+2024-10-07 17:17:03,522 - INFO - Loaded 4 devices from test_devices.xml
+2024-10-07 17:17:03,525 - INFO - Updated devices saved to test_devices.xml
+2024-10-07 17:17:03,525 - INFO - Added device: Dewas_E - 192.168.1.40
+2024-10-07 17:17:03,540 - INFO - Loaded 4 devices from test_devices.xml
+2024-10-07 17:17:03,541 - WARNING - Device with name 'Dewas_A' or IP '192.168.1.10' already exists.
+2024-10-07 17:17:03,568 - INFO - Loaded 4 devices from test_devices.xml
+2024-10-07 17:17:03,590 - INFO - Loaded 4 devices from test_devices.xml
+2024-10-07 17:17:03,593 - INFO - Updated devices saved to test_devices.xml
+2024-10-07 17:17:03,593 - INFO - Removed device: Dewas_D - 8.8.8.8
+2024-10-07 17:17:03,599 - INFO - Loaded 4 devices from test_devices.xml
+2024-10-07 17:17:03,605 - INFO - Updated devices saved to test_devices.xml
+2024-10-07 17:17:03,605 - INFO - Removed device: Dewas_B - 192.168.1.20
+2024-10-07 17:17:03,625 - INFO - Loaded 4 devices from test_devices.xml
+2024-10-07 17:17:03,625 - WARNING - Device 'Nonexistent' not found.
+2024-10-07 17:17:07,840 - INFO - Loaded 5 devices from devices.xml
+2024-10-07 17:17:07,842 - INFO - Loaded 5 devices from devices.xml
+2024-10-07 17:17:07,868 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.0.18:5000
+2024-10-07 17:17:07,868 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-07 17:17:25,520 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:25,528 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:25] "GET / HTTP/1.1" 200 -
+2024-10-07 17:17:28,066 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:28] "GET /remove_device HTTP/1.1" 200 -
+2024-10-07 17:17:31,138 - INFO - Updated devices saved to devices.xml
+2024-10-07 17:17:31,138 - INFO - Removed device: test - 8.8.4.4
+2024-10-07 17:17:31,139 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:31] "[32mPOST /remove_device HTTP/1.1[0m" 302 -
+2024-10-07 17:17:31,403 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:31,407 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:31] "GET / HTTP/1.1" 200 -
+2024-10-07 17:17:32,776 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:32] "GET /add_device HTTP/1.1" 200 -
+2024-10-07 17:17:35,670 - INFO - Updated devices saved to devices.xml
+2024-10-07 17:17:35,670 - INFO - Added device: test - 8.8.4.4
+2024-10-07 17:17:35,671 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:35] "[32mPOST /add_device HTTP/1.1[0m" 302 -
+2024-10-07 17:17:35,920 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:35,925 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:35] "GET / HTTP/1.1" 200 -
+2024-10-07 17:17:36,790 - INFO - Ping successful: Dewas_D - 8.8.8.8 in 33.52ms
+2024-10-07 17:17:36,790 - INFO - Ping successful: test - 8.8.4.4 in 31.52ms
+2024-10-07 17:17:38,572 - WARNING - Ping failed: Dewas_A - 192.168.1.10
+2024-10-07 17:17:38,572 - WARNING - Ping failed: Dewas_B - 192.168.1.20
+2024-10-07 17:17:38,572 - WARNING - Ping failed: Dewas_C - 192.168.1.30
+2024-10-07 17:17:38,577 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:38,577 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:38] "[32mGET /run_check HTTP/1.1[0m" 302 -
+2024-10-07 17:17:38,898 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:38,902 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:38] "GET / HTTP/1.1" 200 -
+2024-10-07 17:17:42,440 - INFO - Ping successful: Dewas_D - 8.8.8.8 in 33.09ms
+2024-10-07 17:17:42,441 - INFO - Ping successful: test - 8.8.4.4 in 33.11ms
+2024-10-07 17:17:44,084 - WARNING - Ping failed: Dewas_A - 192.168.1.10
+2024-10-07 17:17:44,084 - WARNING - Ping failed: Dewas_B - 192.168.1.20
+2024-10-07 17:17:44,085 - WARNING - Ping failed: Dewas_C - 192.168.1.30
+2024-10-07 17:17:44,087 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:44,088 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:44] "[32mGET /run_check HTTP/1.1[0m" 302 -
+2024-10-07 17:17:44,396 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:44,398 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:44] "GET / HTTP/1.1" 200 -
+2024-10-07 17:17:49,767 - INFO - Ping successful: Dewas_D - 8.8.8.8 in 32.11ms
+2024-10-07 17:17:49,773 - INFO - Ping successful: test - 8.8.4.4 in 37.61ms
+2024-10-07 17:17:51,580 - WARNING - Ping failed: Dewas_A - 192.168.1.10
+2024-10-07 17:17:51,580 - WARNING - Ping failed: Dewas_B - 192.168.1.20
+2024-10-07 17:17:51,580 - WARNING - Ping failed: Dewas_C - 192.168.1.30
+2024-10-07 17:17:51,584 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:51,584 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:51] "[32mGET /run_check HTTP/1.1[0m" 302 -
+2024-10-07 17:17:51,905 - INFO - Saved network status to network_status.xml
+2024-10-07 17:17:51,907 - INFO - 127.0.0.1 - - [07/Oct/2024 17:17:51] "GET / HTTP/1.1" 200 -
