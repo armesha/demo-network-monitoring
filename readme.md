@@ -20,18 +20,27 @@ git clone https://github.com/armesha/demo-network-monitoring.git
 cd demo-network-monitoring
 ```
 
-### 2. Run in CLI Mode
+### 2. Install Dependencies
+Make sure to install all required dependencies before running the project:
+```bash
+pip install -r requirements.txt
+```
+
+The `requirements.txt` includes:
+- Flask==3.0.3
+
+### 3. Run in CLI Mode
 ```bash
 python3 network_monitor.py
 ```
 
-### 3. Run in Web Interface Mode
+### 4. Run in Web Interface Mode
 ```bash
 python3 network_monitor.py web
 ```
-Access at `http://localhost:5000`.
+Access the web interface at `http://localhost:5000`.
 
-### 4. Run Unit Tests
+### 5. Run Unit Tests
 ```bash
 python3 network_monitor.py test
 ```
